@@ -166,5 +166,58 @@ s = "Hello"
 # else:
   #   print("you have to pay 200. ")
     
-for i in range(10):
+# for i in range(5):
+#    print("Helo world")
+
+# max = 5
+# count = 0
+
+# while count < max:
+ # print(count)
+ # count+=1
+
+# def greet():
+  #  print ("Hello world")
+
+# greet()
+
+# def get_final_price(price):
+  #  return price * 1.02
+
+# print(get_final_price(100))
+# print(get_final_price(50))
+# print(get_final_price(10))
+# print(get_final_price(1000))
+
+#def  my_dec(func):
+ #   def wrapper():
+ #      print("print before function call")
+ #     func()
+ #       print("print after function call")
+ #   return wrapper
+    
+# @my_dec
+# def say_hello():
+#    print("Hello world")
+
+# say_hello()     
+
+
+# num =15
+# print(num)
+
+# num = [1,2,3,4,5,6,7,8,9,10]
+
+# num[1] =7
+
+# print(num)
+
+# print(num[1:8:2])
+
+# for i in  nums:
+#   print(i)
+
+fruits = ["apple", "banana", "orange"]
+
+for i in fruits:
     print(i)
