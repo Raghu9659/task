@@ -1,6 +1,7 @@
 'use client';
 import { useState } from  "react";
 import { useEffect } from "react";
+import { LuRefreshCcwDot } from "react-icons/lu";
 
 const Cat = () => {
     const [catUrl, setCatUrl] = useState('https://cataas.com/cat/says/hello?fontSize=50&fontColor=red');
@@ -28,9 +29,10 @@ console.log("render")
       />
       <button
         onClick={loadCat}
-        className="px-5 py-2 bg-green-500 text-white font-semibold rounded hover:bg-yellow-600 transition "
+        className="flex items-center gap-2 px-10 py-2 bg-green-500 text-white font-semibold rounded hover:bg-yellow-600 transition "
       >
-         Another Cat
+        
+       <LuRefreshCcwDot className="w-5 h-5"/>  Another Cat
       </button>
     </main>
   );
